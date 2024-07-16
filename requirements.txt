@@ -1,7 +1,12 @@
 streamlit
 langchain
-cassio
+langchain-community
+cassandra-driver   # or "datastax-astra" if using Astra DB directly
 PyPDF2
+openai
+tiktoken
+python-dotenv       # If using a .env file for secrets (recommended)
+cassio
 pandas
 scikit-learn
 sentence-transformers
