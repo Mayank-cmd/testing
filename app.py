@@ -79,7 +79,7 @@ if prompt := st.chat_input("Your question"):
 
 # --- Accuracy Testing ---
 if st.button("Run Accuracy Test"):
-    test_data = pd.read_csv("test_data.csv")
+    test_data = pd.read_csv("test.csv")
     
     # Display the test data to verify the column names
     st.write(test_data.head())
