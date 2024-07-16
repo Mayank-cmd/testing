@@ -1,0 +1,8 @@
+streamlit
+langchain
+cassio
+PyPDF2
+pandas
+scikit-learn
+sentence-transformers
+matplotlib
